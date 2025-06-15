@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>أبيات عن الثانوية وحُلم الجامعة</title>
+  
+  <!-- الخطوط -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('background.png') no-repeat center center/cover;
+      font-family: 'Amiri', serif;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .author {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 8px 15px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+
+    .author:hover {
+      transform: scale(1.03);
+    }
+
+    .author img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 10px;
+      border: 2px solid #ffd700;
+    }
+
+    .author span {
+      font-family: 'Cairo', sans-serif;
+      font-weight: bold;
+      color: #ffd700;
+      font-size: 1.1em;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffd700;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-family: 'Cairo', sans-serif;
+    }
+
+    .poem p {
+      font-size: 1.5em;
+      margin: 10px 0;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      white-space: normal;
+    }
+
+    .poem p:hover {
+      transform: scale(1.05);
+      color: #ff6f61;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    @media (max-width: 600px) {
+      .poem p {
+        font-size: 1.2em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      .author {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- صورة واسم المؤلف برابط -->
+  <a href="https://web.facebook.com/MSANGAK27" class="author" target="_blank">
+    <img src="author.jpg" alt="صورة المؤلف">
+    <span>محمد السيد محمود سنجق</span>
+  </a>
+
+  <div class="container">
+    <h1>-    ابيات     من      تأليفي    -</h1>
+    <div class="poem">
+      <p>يا ليلُ كُفَّ، فقد ضاقَت بي السُّبُلُ <br> والعَمرُ يَنزِفُ، والأحلامُ تَرتَحِلُ</p>
+      <p>أُطارِدُ العِلمَ، والأيّامُ تُنهِكني <br> كأنَّني في صِراعِ المَوجِ أَرتَجِلُ</p>
+      <p>سُقِيتُ مِرَّ المَناهِجِ دونَ راحَةِ <br> والعَينُ تُبحِرُ في الأوراقِ تَكتَمِلُ</p>
+      <p>حَلَمتُ طُولَ السِّنينِ الطِبَّ غايَتَنا <br> لكنْ كفَى، فالطريقُ الجَمرُ والمِلَلُ</p>
+      <p>يا ربِّ جامعةً تُنسيني مآسينا <br> ولو بغيرِ مُرادِ القلبِ تَكتَمِلُ</p>
+      <p>أُريدُ أن أترُكَ الكابوسَ أحمِلُني <br> إلى حياةٍ بها الأرواحُ تَبتهِلُ</p>
+    </div>
+  </div>
+
+</body>
+</html>
